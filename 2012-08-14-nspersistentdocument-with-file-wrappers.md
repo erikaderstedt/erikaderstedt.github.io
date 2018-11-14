@@ -1,9 +1,9 @@
 ---
-title: "Core Data with file wrappers"
 date: 2012-08-14 18:44
-comments: true
 categories: [Cocoa, Core Data]
 ---
+# Core Data with file wrappers
+
 NSPersistentDocument doesn't support file wrappers out of the box. Apple provides some sample code, ["File wrappers with Core Data Documents"](http://developer.apple.com/library/mac/#samplecode/PersistentDocumentFileWrappers/Introduction/Intro.html), that shows you how. I used this design in the current version of my main app, which shipped back in december 2010.  With the new auto-save and versioning system introduced in OS X 10.7, the code got a lot hairier. I eventually managed to get autosave working well with file wrappers, but only after I had experienced quite a few edge cases (with Dropbox folders, for example). The code was… ugly.
 <!-- more -->
 When Apple rolled out the first preview of OS X 10.8, I wasn't surprised to find that my code was broken. A few months, a lot of debugging and a couple of filed Radars later, I was still far from working code. Finally, I took a step back and looked at the contract for NSDocument and subclasses:
