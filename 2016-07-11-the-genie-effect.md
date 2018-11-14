@@ -5,6 +5,8 @@ categories: [swift, Core Image]
 
 # The Genie effect, now 100% Swiftier
 
+# The Genie effect, now 100% Swiftier
+
 Many years ago I wrote a blog post on how to recreate the classic Genie effect using a custom `CIFilter`. People keep asking for help with this, which is a bit embarrassing since the sample project no longer compiles. I'm in the process of rewriting this portion of my app and thought I'd take the opportunity to update the blog post.
 
 <!-- more -->
