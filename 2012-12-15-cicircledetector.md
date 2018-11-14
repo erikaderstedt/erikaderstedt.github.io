@@ -4,6 +4,7 @@ categories: [Cocoa, Image analysis]
 ---
 
 # CICircleDetector
+# CICircleDetector
 
 Let's say that you allow the user to load an orienteering map in the form of a scan or a photo, and you want to know where the control circles are. You can
 
