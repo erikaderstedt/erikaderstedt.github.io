@@ -1,12 +1,9 @@
 ---
-layout: post
-title: "CICircleDetector"
 date: 2012-12-15 17:49
-comments: true
-categories:
-- Cocoa
-- Image analysis
+categories: [Cocoa, Image analysis]
 ---
+
+# CICircleDetector
 
 Let's say that you allow the user to load an orienteering map in the form of a scan or a photo, and you want to know where the control circles are. You can
 
